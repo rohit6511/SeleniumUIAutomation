@@ -76,7 +76,7 @@ namespace SeleniumUIAutomation.Tests.Hooks
             }
             finally
             {
-                DriverManager.QuitDriver();
+                //DriverManager.QuitDriver();
             }
         }
 

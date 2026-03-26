@@ -85,7 +85,7 @@ Edit `appsettings.json` to configure test settings:
 ```json
 {
   "TestSettings": {
-    "BaseUrl": "https://your-app-url.com/login",
+    "BaseUrl": "https://uat.qality.dev/#/auth/login",
     "Browser": "chrome",
     "Headless": false,
     "ImplicitWaitSeconds": 10,

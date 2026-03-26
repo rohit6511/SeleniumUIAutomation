@@ -1,4 +1,3 @@
-using NUnit.Framework;
 using SeleniumUIAutomation.Tests.Drivers;
 using SeleniumUIAutomation.Tests.Pages;
 using SeleniumUIAutomation.Tests.Utilities;
@@ -26,7 +25,7 @@ namespace SeleniumUIAutomation.Tests.StepDefinitions
             string baseUrl = ConfigurationManager.BaseUrl;
             if (string.IsNullOrEmpty(baseUrl))
             {
-                baseUrl = "https://example.com/login";
+                baseUrl = "https://uat.qality.dev/#/auth/login";
             }
             _loginPage.NavigateToLoginPage(baseUrl);
         }

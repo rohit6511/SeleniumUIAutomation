@@ -1,0 +1,16 @@
+{
+  "language": {
+    "feature": "en"
+  },
+  "bindingCulture": {
+    "name": "en-US"
+  },
+  "generator": {
+    "addNonParallelizableMarkerForTags": [
+      "sequential"
+    ]
+  },
+  "runtime": {
+    "missingOrPendingStepsOutcome": "Inconclusive"
+  }
+}

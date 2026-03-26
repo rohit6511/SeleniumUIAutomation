@@ -10,11 +10,12 @@ steps:
     packageType: 'sdk'
     version: '8.0.x'
 
-- script: dotnet restore
+# 🔥 Add this
+- script: dotnet restore **/*.csproj
   displayName: Restore
 
-- script: dotnet build --no-restore
+- script: dotnet build **/*.csproj --no-restore
   displayName: Build
 
-- script: dotnet test --logger "trx"
+- script: dotnet test **/*.csproj --logger "trx"
   displayName: Run Tests

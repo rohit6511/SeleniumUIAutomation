@@ -10,12 +10,12 @@ steps:
     packageType: 'sdk'
     version: '8.0.x'
 
-# 🔥 Add this
-- script: dotnet restore **/*.csproj
+# ✅ Use solution file
+- script: dotnet restore SeleniumUIAutomation.sln
   displayName: Restore
 
-- script: dotnet build **/*.csproj --no-restore
+- script: dotnet build SeleniumUIAutomation.sln --no-restore
   displayName: Build
 
-- script: dotnet test **/*.csproj --logger "trx"
+- script: dotnet test SeleniumUIAutomation.sln --logger "trx"
   displayName: Run Tests

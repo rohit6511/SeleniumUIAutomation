@@ -1,0 +1,116 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+*.cache
+*.vspscc
+*.vssscc
+
+# NuGet
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+TestResult.xml
+nunit-*.xml
+*.trx
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# Coverage
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage/
+
+# Extent Reports
+ExtentReports/
+Reports/
+*.html
+
+# Screenshots
+Screenshots/
+*.png
+*.jpg
+*.jpeg
+!**/wwwroot/**/*.png
+!**/wwwroot/**/*.jpg
+
+# Selenium/WebDriver
+chromedriver.exe
+geckodriver.exe
+msedgedriver.exe
+IEDriverServer.exe
+
+# User-specific files
+*.rsuser
+*.DotSettings.user
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# JetBrains Rider
+*.sln.iml
+
+# Application Insights
+ApplicationInsights.config
+
+# LivingDoc
+LivingDoc*.html
+livingdoc-*.json
+
+# SpecFlow
+*.feature.cs
+
+# Environment/Config with secrets
+appsettings.Development.json
+appsettings.Local.json
+*.local.json
+.env
+.env.*
+
+# Publish output
+publish/
